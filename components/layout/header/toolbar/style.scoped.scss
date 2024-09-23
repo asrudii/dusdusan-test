@@ -1,0 +1,31 @@
+.toolbar {
+  @apply fixed top-0 z-[90] box-border flex w-full max-w-[480px] items-center justify-between bg-white px-2.5 py-2;
+
+  .logo {
+    @apply box-border flex aspect-[10/3] h-[50px] flex-shrink py-2;
+
+    a {
+      @apply grow;
+
+      .image {
+        @apply relative aspect-[10/3] h-full w-full;
+      }
+
+      img {
+        @apply object-contain object-left;
+      }
+    }
+  }
+
+  .home-page {
+    @apply mb-[50px];
+  }
+
+  .header-cta {
+    @apply flex flex-grow flex-row flex-nowrap items-center justify-end;
+
+    .toolbar-login-register-wrapper {
+      @apply flex items-center;
+    }
+  }
+}

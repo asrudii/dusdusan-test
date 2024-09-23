@@ -1,0 +1,7 @@
+.cta-member {
+  @apply p-[5px_20px_35px];
+
+  .image {
+    @apply relative aspect-[10/3] w-full cursor-pointer overflow-hidden rounded-lg object-cover;
+  }
+}

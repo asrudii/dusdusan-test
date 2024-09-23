@@ -1,0 +1,33 @@
+.bottom-navigation-container {
+  @apply fixed bottom-[-12px] z-[99999999] my-[12px] h-[60px] w-full max-w-[480px] bg-[#01b0b9] shadow-[0_-2px_2px_0_rgba(0,0,0,0.25)];
+
+  .navigation-wrapper {
+    @apply box-border flex items-center justify-around p-[15px] pb-[10px];
+
+    a {
+      .icon-wrapper {
+        @apply flex cursor-pointer flex-col items-center justify-center;
+
+        .image-svg {
+          @apply text-[22px] text-white;
+        }
+
+        .catalog-wrapper {
+          @apply mt-[-40px] flex h-[55px] w-[55px] items-center justify-center rounded-full bg-[#ffad00] p-[10px] shadow-[0_2px_2px_0_rgba(0,0,0,0.25)];
+        }
+
+        .label {
+          @apply mt-[-5px] text-[10px] text-white;
+        }
+
+        .active {
+          @apply font-bold;
+        }
+
+        .katalog {
+          @apply mt-[5px];
+        }
+      }
+    }
+  }
+}

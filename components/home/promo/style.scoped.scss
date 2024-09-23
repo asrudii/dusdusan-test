@@ -1,0 +1,15 @@
+.promo-wrapper {
+  @apply m-0 -mx-[15px] -ml-[10px] mb-[15px] inline-flex px-[15px];
+
+  .product {
+    @apply relative m-0 h-auto w-[170px] px-[5px] py-[10px];
+
+    a {
+      img {
+        @apply rounded-sm bg-white bg-contain bg-center bg-no-repeat;
+
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+      }
+    }
+  }
+}

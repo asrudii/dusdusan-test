@@ -1,0 +1,16 @@
+a {
+  @apply relative w-[20%] cursor-pointer bg-transparent text-primary no-underline outline-none transition-colors duration-300;
+
+  .brand-card-container {
+    @apply mr-3 flex flex-col rounded bg-white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+
+    .image {
+      @apply relative aspect-square h-auto min-h-[60px] overflow-hidden rounded-t bg-[#f1f1f1] object-contain;
+    }
+
+    .label {
+      @apply my-2 text-center text-xs leading-[1.67] text-black;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.product-card-container {
+  @apply my-4 ml-2.5 flex w-36 cursor-pointer flex-col overflow-hidden rounded-md bg-white text-xs;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+
+  .image {
+    @apply relative w-full rounded-t-sm bg-gray-300 pt-[100%];
+
+    .coming-soon {
+      @apply absolute inset-0 z-50 flex w-full items-center justify-center bg-black bg-opacity-30 text-base font-bold text-white;
+    }
+  }
+
+  .content {
+    @apply box-border flex flex-grow flex-col justify-between p-2.5;
+
+    .name {
+      @apply mb-1 line-clamp-2 text-xs font-bold text-black;
+    }
+
+    .price {
+      @apply mt-1 flex flex-col text-xs font-bold text-secondary;
+    }
+
+    .like {
+      @apply mt-1 flex items-center gap-1 text-xs font-semibold text-[#777777];
+    }
+
+    .uom-note {
+      @apply mt-1 text-[10px] font-semibold text-[#949494];
+    }
+
+    .status-stock {
+      @apply m-1 -mx-2.5 -mb-2.5 bg-[#f5222d] text-center font-medium text-white;
+    }
+  }
+}

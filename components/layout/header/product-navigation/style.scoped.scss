@@ -1,0 +1,11 @@
+.product-navigation-container {
+  @apply relative z-[6] my-3 mt-28 h-[37px] w-full max-w-[480px] bg-primary;
+
+  .product-navigation-wrapper {
+    @apply mx-3 flex justify-between overflow-hidden;
+
+    .category {
+      @apply cursor-pointer p-2.5 text-[10px] font-bold text-white;
+    }
+  }
+}

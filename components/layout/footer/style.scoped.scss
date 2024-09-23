@@ -1,0 +1,35 @@
+.footer-container {
+  @apply bg-primary p-7 pb-20 leading-5;
+
+  .label {
+    @apply text-lg font-medium text-white;
+  }
+
+  .text {
+    @apply text-base text-white;
+
+    a {
+      @apply text-white;
+    }
+  }
+
+  .div-icon {
+    @apply flex items-center justify-center pb-6 pt-10;
+
+    a {
+      @apply w-fit;
+
+      img {
+        @apply ml-2 mr-2 h-9 w-9;
+      }
+    }
+  }
+
+  .address {
+    @apply mb-5 items-center px-2 text-center text-white;
+  }
+
+  .copyright {
+    @apply flex flex-row items-center justify-center pb-2.5 text-center text-[0.938rem] text-white;
+  }
+}

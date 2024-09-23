@@ -1,0 +1,11 @@
+.bar {
+  @apply mx-4 flex flex-row items-center justify-between pt-5 text-base font-bold;
+
+  .title-wrapper {
+    @apply flex flex-row items-center gap-2;
+  }
+
+  a {
+    @apply cursor-pointer bg-transparent text-white no-underline outline-none transition-colors duration-300;
+  }
+}

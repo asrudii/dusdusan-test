@@ -1,0 +1,15 @@
+.layout-wrapper {
+  @apply mx-auto h-full max-w-[480px] overflow-hidden bg-white font-[family-name:var(--font-neo-sans-pro)] text-sm text-tertiary shadow-el-4 [font-variant:tabular-nums];
+
+  a {
+    @apply outline-none;
+  }
+
+  .content-container {
+    @apply relative min-h-screen p-[70px_15px_15px];
+
+    .category-wrapper {
+      @apply -m-[15px] pb-[15px];
+    }
+  }
+}

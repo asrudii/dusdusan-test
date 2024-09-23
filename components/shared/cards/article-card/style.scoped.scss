@@ -1,0 +1,28 @@
+.article-card {
+  @apply mt-3 flex flex-row justify-between border-b border-gray-200 pb-2;
+
+  .article-card-wrapper {
+    @apply flex w-full cursor-pointer flex-row;
+
+    .article-card-image {
+      @apply relative mr-4 max-h-[150px] w-[150px] overflow-hidden rounded-lg;
+      flex: 0 0 100px;
+
+      img {
+        @apply rounded-lg border-2 border-white bg-gray-200;
+      }
+    }
+
+    .article-card-content {
+      @apply flex flex-col justify-between;
+
+      .article-card-title {
+        @apply line-clamp-3 text-base font-semibold leading-5;
+      }
+
+      .article-card-date {
+        @apply text-sm font-semibold text-secondary;
+      }
+    }
+  }
+}

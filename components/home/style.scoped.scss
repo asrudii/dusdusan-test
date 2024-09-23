@@ -1,0 +1,8 @@
+.new-landing-container {
+  @apply -mt-[60px];
+
+  &::before {
+    @apply fixed top-0 z-10 h-screen w-4 bg-transparent;
+    content: "";
+  }
+}
